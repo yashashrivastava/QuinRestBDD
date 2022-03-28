@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.381 sec <<< FAILURE!
+User is able to create Public Bin API(Test Create API)  Time elapsed: 0.062 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'User sets the base API request' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User sets the base API request")
+public void user_sets_the_base_api_request() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
